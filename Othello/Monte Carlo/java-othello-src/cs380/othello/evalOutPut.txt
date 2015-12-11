@@ -1,0 +1,132 @@
+-----------------------------------------------------
+| Iago vs Iago2(with Evaluating Function Action!!!) |
+-----------------------------------------------------
+
+When I ran 100 games, all the games had the same score.I believe all the scores are the same since there is no randomness in
+the decision making of both agents. Therefore every game will be played out
+the same:
+
+Wins and losses are from the perspective of Iago2.
+
+Depth 1:
+
+Final state with score: -30
+OXXXXXXX
+OXXXXXXX
+OOOOOXXX
+XOOOXXOX
+XXOXXOXX
+XOXXXXXX
+XXOOXOXX
+XXXXXXXX
+
+won: 1 lost: 0 tie:  0 time: 74 ms
+
+
+Depth 2: 
+
+Final state with score: 2
+XXXXXXXO
+XXXXXOOO
+XXXXXOOO
+XXXXXXOO
+OOOOOOOO
+OXOXOXOO
+OOXXXOOX
+OOOOOOOX
+
+won: 0 lost: 1 tie:  0 time: 178 ms
+
+
+Depth 3:
+
+Final state with score: -44
+OOOOOOOO
+XXXOXXXX
+XXOXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
+won: 1 lost: 0 tie:  0 time: 313 ms
+
+
+Depth 4:
+
+Final state with score: -32
+OOOXXXXX
+OOXXXXXX
+OOOXOOXX
+XXXXXXXX
+XXOOOXXX
+XXXXOXOX
+XXXXXOXX
+XXXXXXXX
+
+won: 1 lost: 0 tie:  0 time: 1826 ms
+
+
+Depth 5:
+
+Final state with score: 18
+XOXXOOOO
+XXOXOOOO
+OOOOOOOO
+OOOXXXXX
+OOOOOOXX
+OOOXXXOX
+OOOXXOOX
+OOOXXOOX
+
+won: 0 lost: 1 tie:  0 time: 2995 ms
+
+
+Depth 6:
+
+Final state with score: -28
+OOOOXXXX
+XXXXOXXX
+XXXXXOXX
+XXXXXXOX
+XXOOOOXX
+XXXOOXOX
+XXXXXOOO
+XOXXXXXX
+
+won: 1 lost: 0 tie:  0 time: 13955 ms
+
+
+Depth 7:
+
+Final state with score: -52
+XXXXXXXX
+XXXOOXXX
+XXXXOOXX
+XXXXXOXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXX.
+XXXXXXX.
+
+won: 1 lost: 0 tie:  0 time: 12239 ms
+
+
+Depth 8:
+
+Final state with score: -34
+OOOOOOOO
+XXXXXXXO
+XXXXXXXO
+XXXXXXXO
+XXXXXXXO
+XXXXXXXO
+XXXXXXXO
+XXXXXXXO
+
+won: 1 lost: 0 tie:  0 time: 81422 ms
+
+
+
+

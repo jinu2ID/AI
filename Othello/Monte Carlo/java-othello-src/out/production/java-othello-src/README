@@ -1,0 +1,51 @@
+Author: Jinu Jacob
+jj559@drexel.edu
+Created: 11/15
+CS 380 HW4
+Minimax agent for Othello
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+SUMMARY
+---------------------------------------------------------------------------------------------------------------------
+This program implements the minimax search in an Othello player agent.
+Alpha-beta pruning has also been implemented to reduce the number of nodes searched.
+This program was written in IntelliJIDEA 14.1.5 on a Windows 10 machine. It
+was tested on Drexel's tux servers.
+---------------------------------------------------------------------------------------------------------------------
+
+HOW TO RUN
+
+To run please run the "make" command from the java-othello-src directory
+where the make file is located.
+
+The Iago player is set to max search depth 8 and is set as player 2 in
+Test.java
+
+Test results can be found in cs380/othello/output.txt
+---------------------------------------------------------------------------------------------------------------------
+
+IMPLEMENTATION NOTES
+---------------------------------------------------------------------------------------------------------------------
+
+The Iago class extends the OthelloPlayer class. The constructor for Iago
+takes an integer as an argument which is the max search depth for minimax.
+
+The getMove function passes each possible move from the current state to the
+minimax function and returns the one with the best score. getMove also
+checks whether it is the maximizing or minimizing player's turn.
+
+The Minimax function is a recursive function that searches until it reaches
+max depth or until the game is over. If neither of these conditions are met
+it recursively calls Minimax on all the successor states. Once a leaf node
+is reached, scores are propogated back up the tree.  The maximizing section
+of the code will return the highest values and the minimizing section will
+return the lowest values. 
+
+Alpha-beta pruning is implemented by checking the alpha and beta
+values at each ply. If alpha is greater than or equal to beta then the
+current move is worse than the already existing alpha or beta and will never
+be selected. These nodes can therefore be pruned away to save time.
+
+

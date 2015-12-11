@@ -1,0 +1,1886 @@
+-------------------------------------------------
+| DESDEMONA(MCTS) 1,000,000 Iterations - 1 Game |
+-------------------------------------------------
+
+
+Current state, O to move:
+........
+........
+........
+...OX...
+...XO...
+........
+........
+........
+Player O to 4, 2
+
+Current state, X to move:
+........
+........
+....O...
+...OO...
+...XO...
+........
+........
+........
+Player X to 3, 2
+
+Current state, O to move:
+........
+........
+...XO...
+...XO...
+...XO...
+........
+........
+........
+Player O to 2, 5
+
+Current state, X to move:
+........
+........
+...XO...
+...XO...
+...OO...
+..O.....
+........
+........
+Player X to 3, 5
+
+Current state, O to move:
+........
+........
+...XO...
+...XO...
+...XO...
+..OX....
+........
+........
+Player O to 2, 6
+
+Current state, X to move:
+........
+........
+...XO...
+...XO...
+...XO...
+..OO....
+..O.....
+........
+Player X to 5, 2
+
+Current state, O to move:
+........
+........
+...XXX..
+...XX...
+...XO...
+..OO....
+..O.....
+........
+Player O to 2, 2
+
+Current state, X to move:
+........
+........
+..OXXX..
+...OX...
+...XO...
+..OO....
+..O.....
+........
+Player X to 1, 2
+
+Current state, O to move:
+........
+........
+.XXXXX..
+...OX...
+...XO...
+..OO....
+..O.....
+........
+Player O to 3, 1
+
+Current state, X to move:
+........
+...O....
+.XXOXX..
+...OX...
+...XO...
+..OO....
+..O.....
+........
+Player X to 3, 0
+
+Current state, O to move:
+...X....
+...X....
+.XXXXX..
+...XX...
+...XO...
+..OO....
+..O.....
+........
+Player O to 6, 1
+
+Current state, X to move:
+...X....
+...X..O.
+.XXXXO..
+...XO...
+...OO...
+..OO....
+..O.....
+........
+Player X to 3, 6
+
+Current state, O to move:
+...X....
+...X..O.
+.XXXXO..
+...XO...
+...XO...
+..OX....
+..OX....
+........
+Player O to 4, 6
+
+Current state, X to move:
+...X....
+...X..O.
+.XXXXO..
+...XO...
+...XO...
+..OX....
+..OOO...
+........
+Player X to 7, 0
+
+Current state, O to move:
+...X...X
+...X..X.
+.XXXXX..
+...XX...
+...XO...
+..OX....
+..OOO...
+........
+Player O to 2, 4
+
+Current state, X to move:
+...X...X
+...X..X.
+.XXXXX..
+...XX...
+..OOO...
+..OO....
+..OOO...
+........
+Player X to 3, 7
+
+Current state, O to move:
+...X...X
+...X..X.
+.XXXXX..
+...XX...
+..OXO...
+..OX....
+..OXO...
+...X....
+Player O to 1, 1
+
+Current state, X to move:
+...X...X
+.O.X..X.
+.XOXXX..
+...OX...
+..OXO...
+..OX....
+..OXO...
+...X....
+Player X to 1, 5
+
+Current state, O to move:
+...X...X
+.O.X..X.
+.XOXXX..
+...XX...
+..XXO...
+.XXX....
+..XXO...
+...X....
+Player O to 4, 0
+
+Current state, X to move:
+...XO..X
+.O.O..X.
+.XOXXX..
+...XX...
+..XXO...
+.XXX....
+..XXO...
+...X....
+Player X to 0, 0
+
+Current state, O to move:
+X..XO..X
+.X.O..X.
+.XXXXX..
+...XX...
+..XXO...
+.XXX....
+..XXO...
+...X....
+Player O to 2, 0
+
+Current state, X to move:
+X.OOO..X
+.X.O..X.
+.XXXXX..
+...XX...
+..XXO...
+.XXX....
+..XXO...
+...X....
+Player X to 5, 5
+
+Current state, O to move:
+X.OOO..X
+.X.O..X.
+.XXXXX..
+...XX...
+..XXX...
+.XXX.X..
+..XXX...
+...X....
+Player O to 1, 3
+
+Current state, X to move:
+X.OOO..X
+.X.O..X.
+.XOXXX..
+.O.XX...
+..XXX...
+.XXX.X..
+..XXX...
+...X....
+Player X to 0, 2
+
+Current state, O to move:
+X.OOO..X
+.X.O..X.
+XXOXXX..
+.X.XX...
+..XXX...
+.XXX.X..
+..XXX...
+...X....
+Player O to 0, 4
+
+Current state, X to move:
+X.OOO..X
+.X.O..X.
+XXOXXX..
+.O.XX...
+O.XXX...
+.XXX.X..
+..XXX...
+...X....
+Player X to 1, 4
+
+Current state, O to move:
+X.OOO..X
+.X.O..X.
+XXOXXX..
+.X.XX...
+OXXXX...
+.XXX.X..
+..XXX...
+...X....
+Player O to 5, 4
+
+Current state, X to move:
+X.OOO..X
+.X.O..X.
+XXOXXX..
+.X.XX...
+OOOOOO..
+.XXX.X..
+..XXX...
+...X....
+Player X to 5, 3
+
+Current state, O to move:
+X.OOO..X
+.X.O..X.
+XXOXXX..
+.X.XXX..
+OOOOXX..
+.XXX.X..
+..XXX...
+...X....
+Player O to 6, 2
+
+Current state, X to move:
+X.OOO..X
+.X.O..X.
+XXOOOOO.
+.X.XXX..
+OOOOXX..
+.XXX.X..
+..XXX...
+...X....
+Player X to 7, 2
+
+Current state, O to move:
+X.OOO..X
+.X.O..X.
+XXXXXXXX
+.X.XXX..
+OOOOXX..
+.XXX.X..
+..XXX...
+...X....
+Player O to 5, 1
+
+Current state, X to move:
+X.OOO..X
+.X.O.OX.
+XXXXOXXX
+.X.OXX..
+OOOOXX..
+.XXX.X..
+..XXX...
+...X....
+Player X to 6, 0
+
+Current state, O to move:
+X.OOO.XX
+.X.O.XX.
+XXXXXXXX
+.X.XXX..
+OOXOXX..
+.XXX.X..
+..XXX...
+...X....
+Player O to 1, 0
+
+Current state, X to move:
+XOOOO.XX
+.O.O.XX.
+XOXXXXXX
+.O.XXX..
+OOXOXX..
+.XXX.X..
+..XXX...
+...X....
+Player X to 5, 0
+
+Current state, O to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+.O.XXX..
+OOXOXX..
+.XXX.X..
+..XXX...
+...X....
+Player O to 5, 7
+
+Current state, X to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+.O.XXX..
+OOOOXX..
+.XXO.X..
+..XXO...
+...X.O..
+Player X to 0, 3
+
+Current state, O to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+XO.XXX..
+OXOOXX..
+.XXO.X..
+..XXO...
+...X.O..
+Player O to 2, 7
+
+Current state, X to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+XO.XXX..
+OXOOXX..
+.XOO.X..
+..OXO...
+..OX.O..
+Player X to 1, 6
+
+Current state, O to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+XO.XXX..
+OXOXXX..
+.XXO.X..
+.XXXO...
+..OX.O..
+Player O to 4, 7
+
+Current state, X to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+XO.XXX..
+OXOXXX..
+.XXO.X..
+.XXXO...
+..OOOO..
+Player X to 2, 3
+
+Current state, O to move:
+XXXXXXXX
+.O.O.XX.
+XOXXXXXX
+XXXXXX..
+OXXXXX..
+.XXO.X..
+.XXXO...
+..OOOO..
+Player O to 6, 6
+
+Current state, X to move:
+XXXXXXXX
+.O.O.XX.
+XOOXXXXX
+XXXOXX..
+OXXXOX..
+.XXO.O..
+.XXXO.O.
+..OOOO..
+Player X to 7, 7
+
+Current state, O to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXXXXX..
+OXXXXX..
+.XXO.X..
+.XXXO.X.
+..OOOO.X
+Player O to 0, 5
+
+Current state, X to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXXXXX..
+OXXXXX..
+OOOO.X..
+.OXXO.X.
+..OOOO.X
+Player X to 0, 6
+
+Current state, O to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXXXXX..
+XXXXXX..
+XXOO.X..
+XXXXO.X.
+..OOOO.X
+Player O to 4, 5
+
+Current state, X to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXOXXX..
+XXXOXX..
+XXOOOX..
+XXXOO.X.
+..OOOO.X
+Player X to 5, 6
+
+Current state, O to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXOXXX..
+XXXOXX..
+XXOOOX..
+XXXXXXX.
+..OOOO.X
+Player O to 6, 5
+
+Current state, X to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXOXXX..
+XXXOXX..
+XXOOOOO.
+XXXXXOX.
+..OOOO.X
+Player X to 7, 5
+
+Current state, O to move:
+XXXXXXXX
+.X.O.XX.
+XOXXXXXX
+XXOXXX..
+XXXOXX..
+XXXXXXXX
+XXXXXOX.
+..OOOO.X
+Player O to 2, 1
+
+Current state, X to move:
+XXXXXXXX
+.XOO.XX.
+XOOXXXXX
+XXOXXX..
+XXXOXX..
+XXXXXXXX
+XXXXXOX.
+..OOOO.X
+Player X to 0, 1
+
+Current state, O to move:
+XXXXXXXX
+XXOO.XX.
+XXOXXXXX
+XXXXXX..
+XXXXXX..
+XXXXXXXX
+XXXXXOX.
+..OOOO.X
+Player O to 7, 4
+
+Current state, X to move:
+XXXXXXXX
+XXOO.XX.
+XXOXXXXX
+XXXXXX..
+XXXXXX.O
+XXXXXXOX
+XXXXXOX.
+..OOOO.X
+Player X to 4, 1
+
+Current state, O to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXX..
+XXXXXX.O
+XXXXXXOX
+XXXXXOX.
+..OOOO.X
+Player O to 7, 6
+
+Current state, X to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXX..
+XXXXXX.O
+XXXXXXOO
+XXXXXOOO
+..OOOO.X
+Player X to 7, 3
+
+Current state, O to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXX.X
+XXXXXX.X
+XXXXXXOX
+XXXXXOOX
+..OOOO.X
+Player O to 6, 3
+
+Current state, X to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXXOX
+XXXXXO.X
+XXXXOXOX
+XXXOXOOX
+..OOOO.X
+Player X to 6, 4
+
+Current state, O to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXOXOX
+XXXOXOOX
+..OOOO.X
+null
+
+Current state, X to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXOXOX
+XXXOXOOX
+..OOOO.X
+Player X to 6, 7
+
+Current state, O to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXOXXXX
+..OOOOXX
+null
+
+Current state, X to move:
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXOXXXX
+..OOOOXX
+Player X to 1, 7
+
+Final state with score: -58
+XXXXXXXX
+XXXXXXX.
+XXOXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXOXXXX
+.XXXXXXX
+
+won: 1 lost: 0 tie:  0 time: 226393 ms
+
+
+-----------------------------------------------------------
+|     DESDEMONA(MCTS) 50,000 ITERATIONS - 100 GAMES       |
+-----------------------------------------------------------
+
+won: 58 lost: 39 tie:  3 time: 1224446 ms
+
+0
+
+Final state with score: -8
+XXXXXOOX
+XXXXXOXX
+XXXOOXXX
+XXOOXXXX
+OOOXOOXX
+OOXOOOOO
+XXXXXXOO
+XOOOOOOO
+
+1
+
+Final state with score: -39
+.X...X..
+XX.XX...
+XXXXX...
+XXXXXXX.
+XXXXXXX.
+XXXXXX..
+XXX.....
+XXXXX...
+
+2
+
+Final state with score: 14
+OOOOOOOO
+OOXOOXXO
+OXOXXXXO
+OOXOXXOO
+OOXXOOXO
+OXXOOOXO
+OXOOOOOO
+XXXXXXXO
+
+3
+
+Final state with score: -14
+OOOOOOOO
+OOXOOXXX
+OXOXXOXX
+OXXXOOXX
+OXXXOXXX
+OOXXXOXX
+OXXXXXXX
+XXXXXXXO
+
+4
+
+Final state with score: 6
+OOOOOOOX
+OOOOOXXX
+OOOOXXXX
+OOOXXXXX
+OOOXOOXX
+OOXXXXXX
+XXXOXXOO
+XXOOOOOO
+
+5
+
+Final state with score: -34
+OOXXXXXX
+XOXXXXXX
+XXOXXOXX
+XOXOXXXX
+XOOXOOXX
+XXXOXOXX
+XXXXXXXO
+XXXXXXXO
+
+6
+
+Final state with score: 14
+XOOOOOOO
+XOOOOOXO
+XOOOOOXO
+XOOOXOXO
+XOOXOOXO
+XXXOXOXO
+XXXXOOOO
+XXXXXOOO
+
+7
+
+Final state with score: 6
+XXXXOOOX
+XXXOOOOX
+OXOXOOOX
+OOXXOOOX
+OXOXOXOX
+OOOOOXOX
+OOOOOOOX
+XXXXXXOX
+
+8
+
+Final state with score: -42
+XXXXXXXX
+XXXXXXXX
+XOXXXXXX
+XOOXXXXX
+XXXXXXXX
+XOXOOOOO
+XXXXXXXO
+XXXXXXXO
+
+9
+
+Final state with score: 20
+OOOOOOOO
+OOOXXXXX
+OOXOXOXX
+OOOXOXOX
+OOXOXOOX
+OXOXOOXX
+OOOOOOXX
+OOOOOOOX
+
+10
+
+Final state with score: 36
+OOOOOOOO
+OOOOOOOO
+OOOOXOXO
+OOOOOXXO
+OOXOOOOO
+OXOOOOOO
+OOXOOOOO
+OXXXXXXX
+
+11
+
+Final state with score: -24
+XXXXXXXX
+XXXXOOOX
+XXOXXOXX
+XOXXXXXX
+OOOOXXXX
+OXOXOXXX
+OOOOXXXX
+OOOXXXXX
+
+12
+
+Final state with score: -16
+OOOOOOOO
+XOXXXXOO
+XXOXOOOO
+XXXOOXOO
+XXXXOOXX
+XXXOXOXX
+XXXXXXXX
+XXXXXXXX
+
+13
+
+Final state with score: -6
+XXXOOOOO
+XXOOOXXO
+XOXOXOXO
+XOXOXXXO
+OXOOOOXO
+XXXOOOXO
+XXXXXXOO
+XXXXXXXO
+
+14
+
+Final state with score: 2
+OOOOOOOO
+OOXOOOXO
+OXOXOOOO
+XXOOXOXO
+XXOXXXXO
+XXOOOOXO
+XXXXXXXO
+XXXXXXXO
+
+15
+
+Final state with score: -56
+.XXXXXXX
+XXXXOXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXX.X
+X.XXXXXX
+XXXXXXX.
+.XXXXX.X
+
+16
+
+Final state with score: 36
+XXOOOOOO
+XXOOXXOO
+XXOXOOXO
+OOOOOOXO
+OOOOOOXO
+OOOOXOOO
+OOOOOOOO
+XOOOOOOO
+
+17
+
+Final state with score: -4
+XXXXXXOO
+XXXXXOOO
+OOXXOXOX
+OXXOOOXX
+XXOOOOXX
+XOXOXOXX
+OXOXOXXX
+OOOOOOOX
+
+18
+
+Final state with score: -10
+OOOOOOOX
+XOOXXXXX
+XOXOOXXX
+XOOOXXOX
+XOXXXOOX
+XOXOOXOX
+XOOXXOXX
+XOXXXXXX
+
+19
+
+Final state with score: -4
+OXXXXXXX
+OXXOOOOX
+OXOXOOOX
+OXOOXXOX
+OOXOXXXX
+OXOXOXXX
+OXXXXOXX
+OOOOOOOX
+
+20
+
+Final state with score: 18
+OOOOXXXX
+XOOOOOXX
+XOXXXOXX
+XOOOXOOX
+XOXOOOOX
+XOOOOOOX
+XOOOOOOX
+OOOOOOOO
+
+21
+
+Final state with score: -48
+XXXXXXXX
+.XXXXXXX
+XXXXXXX.
+.XXXXX..
+X.XXXXXX
+XXXX.XX.
+XXX.X..X
+XXX.....
+
+22
+
+Final state with score: -40
+XXXXXXXX
+XXOXXXXX
+XOXXXXXX
+XOOXXXXX
+XOOXXXXX
+XOXOOXXX
+XXOOXOXX
+XXXXXXXX
+
+23
+
+Final state with score: -36
+XXOXXXXX
+XXOOXXXX
+XXOXXXOX
+XXOXXXOX
+XOXXXOXX
+XXXXOXXX
+XXOOOOXX
+XXXXXXXX
+
+24
+
+Final state with score: -6
+XXXXXXXO
+XXXXXXOO
+XXXXXOOO
+XXXXOOOO
+XXXOXXOO
+XXOOOOXO
+XXXOXXOO
+OOOOOOOO
+
+25
+
+Final state with score: -36
+XXXXXXXX
+OXXXXXXX
+OXXXXXXX
+OXXXXXXX
+OXOXXXXX
+OOOOXOXO
+OOXXXXXO
+XXXXXXXX
+
+26
+
+Final state with score: -12
+XXXXXXXO
+XXXXOOOO
+XOXOXOXO
+XXXXOXOO
+XXOOXOOO
+XXOXXXOO
+XXOOOOOO
+XXXXXXXX
+
+27
+
+Final state with score: -8
+OOOOOOOO
+OXXXXXOO
+OXXXXOXO
+XXOXOXXO
+XXOXOOXO
+XXOXOXXO
+XXXXXOOO
+XXXXXXXO
+
+28
+
+Final state with score: -32
+XXXOOXXX
+XXOOXOXX
+XOOXXXOX
+OOXOXXXX
+XXOXXXXX
+XXOXXXXX
+XXOOXXXO
+XXXXXXXX
+
+29
+
+Final state with score: 2
+OOOXXXXX
+OOXXXOXO
+OXXXOOOO
+OXXOOOOX
+OXOOOOXX
+OXOOOOXX
+OOXXXXOX
+OOXXXXOX
+
+30
+
+Final state with score: -12
+OXXXXXXX
+OOOOOOOO
+OXXOXXXO
+OOXXXXXX
+OOXXXXXX
+OXXOXXXX
+OXXXXXXX
+OOOOOOOX
+
+31
+
+Final state with score: -30
+XXXXXXXO
+XXXXXXXO
+OOXOXOXO
+OXXXOXXO
+XXXOXOXO
+XXXXXXXO
+XOXXXOXO
+XXXXXXXX
+
+32
+
+Final state with score: 8
+OOOOOOOX
+XOOOOOOX
+XXOXOXOX
+XOOOOOOO
+XOOOOOOO
+XOXOXOXO
+XXXXXXXO
+XXXXXXXO
+
+33
+
+Final state with score: -18
+XOOOXXXX
+XXXOOOXX
+XXXOOOOX
+XXXOXOOX
+XXOXXOOX
+XXXOXOXX
+OOOOOXXX
+XXXXXXXX
+
+34
+
+Final state with score: -26
+XXXXXOOX
+XXXXXXOX
+XXXXXXOX
+XXOXXOOX
+XXXOXXOX
+XXOXXXOX
+XXXXXOXX
+OOOOOOOX
+
+35
+
+Final state with score: 32
+OOOOOOOX
+OOOOOXXX
+OXOXXXOO
+OOOOXOOO
+OXOXOOOO
+OXOXOOXO
+OOOOXXOO
+OOOOOOOO
+
+36
+
+Final state with score: 4
+OOOXXXXO
+OOXOXXXO
+OXOXOXXO
+OXOOOOXO
+OXOXOOXX
+OOXXXOXO
+OXOOOOOO
+XXXXXXXO
+
+37
+
+Final state with score: -22
+.X.X.X..
+..XXX...
+...X....
+..XXXXX.
+.XXXXX..
+..XXXX..
+.X......
+........
+
+38
+
+Final state with score: -24
+XXXXXXXO
+XXXXXXXO
+XXXXXOXO
+XXOXXXXO
+XXOXXXXO
+XXOOOOXO
+XXXXXXXX
+OOOOOOOX
+
+39
+
+Final state with score: -20
+XXXXXXXX
+XXXOOXXX
+XOXXXXOX
+XOXXXXOX
+XOOXXXOX
+XOXXXOXX
+XOXOOXXX
+OOOOOOOO
+
+40
+
+Final state with score: -38
+XXXXXXXX
+XXXXXXXX
+OXOXOXXX
+OOOOXXXX
+OXOOOXXX
+XXXXXXXX
+XXOXXXXX
+XXXXXXXO
+
+41
+
+Final state with score: 8
+XXOOOOOO
+XXOOOOOO
+XXOOOOXO
+XXOOOOXO
+XXOXXOXO
+XOXXXXOO
+OOOOOOOO
+XXXXXXXX
+
+42
+
+Final state with score: 4
+OOOOOOOO
+OXXOXXOO
+OXXXOOXO
+OXXXOOXX
+OXXOXXXX
+OXXOXXOO
+XXOOOOOO
+XXXOOOXX
+
+43
+
+Final state with score: -14
+OOOOOOOO
+XOXXXXOX
+XXOXXOXX
+XOOOOXXX
+XXXOOOXX
+XXOXOOXX
+OOXXXXXX
+OXXXXXXX
+
+44
+
+Final state with score: -26
+XOXXXXXX
+XOOXXXXO
+XOXOXOOX
+XXOXOOXX
+XXXOOOXX
+XXOXOXOX
+XOXXXXXX
+OXXXXXXX
+
+45
+
+Final state with score: -8
+XXXXXXXX
+OXOXXXXX
+OOXOXXXX
+OOXXXXXX
+OXOOXOXX
+OOOOOOXX
+OOOXXXXX
+OOOOOOOO
+
+46
+
+Final state with score: 4
+XXXXXXOO
+XXXXXOOO
+OXOOOXOO
+OXXXXXXX
+OOOOXXXX
+OXXXOXOO
+OXXOOOOO
+OOOOOOOO
+
+47
+
+Final state with score: 22
+OXXXOOOO
+OXXXOOOO
+OXXOXOXO
+OXOXOXXO
+OOXOOXOO
+OXOOXOXO
+OOXXOOOO
+OOOOOOOO
+
+48
+
+Final state with score: 36
+OXXXXOOO
+OOOXOOOO
+OOOOXOXO
+OOOOOXXO
+OOOOOXXO
+OOOOOOOO
+OOOXXXOO
+OOOOOOOO
+
+49
+
+Final state with score: 26
+OOOOOOOO
+OOOOOOOO
+OXXXOOOO
+OOXXOXOX
+OXXOXOOX
+OXOXOXOX
+OOOOXXOX
+OOOOOOOX
+
+50
+
+Final state with score: -6
+OOOOOOOO
+OXXXXXOO
+OOOXOOOO
+OOXXXXOO
+OOOOOOXO
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+
+51
+
+Final state with score: -24
+XXOXXXXX
+XXXXXXXX
+XXXOOXOX
+XXOXXOOX
+XOXOXXOX
+XOOOOOOO
+XXXXXXOO
+XXXXXXXO
+
+52
+
+Final state with score: -10
+XXOOXXOO
+OXOOXXOX
+OXXXOOOX
+OXOXOOOX
+OXOOOOOX
+OXXOXXXX
+OXXXXXXX
+OXXXXXXX
+
+53
+
+Final state with score: -48
+XXXXXXXX
+XXXOOXXO
+XXXXXXXO
+XXXXXXOX
+XXXXXOXX
+XXXXXXXX
+XXXOXXXX
+OXXXXXXX
+
+54
+
+Final state with score: 28
+OOOOOOOO
+OXXXXXOO
+OOOOOOXO
+OXXXOXOO
+OXXOXOOO
+OXOXXOOO
+OOXOOXOO
+OOOOOOOO
+
+55
+
+Final state with score: -46
+XXXXXXXX
+XXXXXXXX
+XXXXXXOX
+XXXXXOXX
+XXXXOXOX
+XXXOOOOX
+XXXXXXXX
+XOXXXXXX
+
+56
+
+Final state with score: 38
+OOOOOOOO
+OOOOXXOO
+OOXOOOOO
+OOOOOXOO
+OXXXXOXO
+OOOOOOXO
+OOXOXXOO
+OOOOOOOO
+
+57
+
+Final state with score: 2
+XOOOOOOO
+XXOXXXOX
+OOXOXOXX
+OXXXOXXX
+OXXOOXOX
+OXOXOXOX
+OOXOOOXX
+OOOOOXXX
+
+58
+
+Final state with score: -32
+XXXXXXXX
+XXXOXXXX
+XXOXOXXX
+XXOXOXXX
+XXOOOOXX
+XXOOOXXX
+XOOXOXOX
+XXXXXXXX
+
+59
+
+Final state with score: 16
+OOOOOOXX
+OOXOOOOO
+OXOOOXOO
+OXOXXXOO
+OOXXOOOO
+OOXXOOOO
+OXXXXXOO
+XXXXXXOO
+
+60
+
+Final state with score: 18
+OOOOOXOO
+OOOOXXOO
+OOOXOOOO
+OOXOOXXO
+XOXOXXXO
+XOOXOOXO
+XOOOOOOO
+XXXXXXXO
+
+61
+
+Final state with score: -8
+XXXXXXXX
+OOOOXOXX
+OOXXOXXX
+OXOXOOXX
+OXXXOXXX
+OOOOOXXO
+OXXXXOOO
+OXXXXOOO
+
+62
+
+Final state with score: -2
+OOOOOOOO
+XOXOOOOO
+XXOXXXOO
+XXXOXXOO
+XXXXOXOO
+XXOOXOXO
+XXXXXXOO
+XXXXXXOO
+
+63
+
+Final state with score: 18
+OXXXXXXX
+OOOOOOOX
+OOOXOXOX
+OOOOXOOX
+OOOXOOOX
+OOXOOXOX
+OOXOXOXX
+OOOOOOOX
+
+64
+
+Final state with score: 16
+OOOOOOOO
+OOXXOXXX
+OXOOXOXX
+OXOOOXXX
+OXXOOOXX
+OXOXOOXX
+OOXOXXOO
+OOOOOOOO
+
+65
+
+Final state with score: 0
+OOXXXXXX
+OOOOOXXO
+OOXXXXXX
+OOOOXOXX
+OXOOXOXX
+OXOOOOXX
+OOOOXXXX
+OOOOXXXX
+
+66
+
+Final state with score: 12
+OOOOOOOO
+OOOXOOOO
+OOXOXOXO
+OXOXXOXO
+OOXXOOOO
+OOXXXOXO
+OXXXXXXO
+OXXXXXXO
+
+67
+
+Final state with score: 0
+OOOOOOOO
+OXXXXOOO
+OXXXXXXX
+OXXXOOXX
+OOXOOXXX
+OXOOOOXX
+OOOOOXXX
+OOXXXXXX
+
+68
+
+Final state with score: -26
+XXXXXXXX
+XXXXXXXO
+XXXOOOOO
+XXXXOOXX
+XOXXOXXX
+XXXOXXXX
+XXOXXXXX
+OOOOOOOX
+
+69
+
+Final state with score: -14
+XOXXXXXX
+XXXXXXXO
+XXXOXXOO
+XXXXOXOO
+XXXOOXOO
+OXOOOXOO
+OXXXXXOO
+OXXXXOOO
+
+70
+
+Final state with score: -46
+OXXXXXXX
+XOXXXXXX
+XXOXOXXX
+XXXOXXXX
+XXOXXXXX
+XXOOXXXO
+XXXXXXXX
+XXXXXXXX
+
+71
+
+Final state with score: 16
+OXXXXXOO
+XXOOOOOO
+XXOOOOXO
+XXOOOXOO
+XXOXOOOO
+XXOXXXOO
+XOOXXOOO
+OOOOOOOO
+
+72
+
+Final state with score: -2
+OOOOOOOO
+XOXXXXXO
+XOOXOXOO
+XOOOXXXO
+XOOXOOXO
+XOXXXXXO
+XXOOOOXO
+XXXXXXXX
+
+73
+
+Final state with score: -24
+OOOXXXXX
+XXXXXXXX
+XXOXOXXX
+XXOOXOOX
+XOOXOXOX
+XOOXOOXX
+XXOOXXXX
+XXXXXXXO
+
+74
+
+Final state with score: 22
+OOOOOOOO
+OOOOXOOO
+OXOXOOOO
+OOOXOOOO
+OOOXXOOX
+OXOXXOXX
+XXOXXXXX
+OOOOOOXX
+
+75
+
+Final state with score: -31
+OOOOOOOO
+XXXXXX.O
+XXXXXXXO
+XXOXXXXO
+XXXXXXXO
+XOXXXXXO
+XXXXXXXX
+XXXXXOXX
+
+76
+
+Final state with score: -55
+.XXXXXXX
+..XXXXXX
+..XXXXXX
+XXXXXXX.
+XXXXXXXX
+XXXXXXXX
+XXOXXXXX
+XXXXXXX.
+
+77
+
+Final state with score: -8
+OXXXXXXX
+OOXXXXXX
+OOOXXXXX
+OOXOXOXX
+OOXOOXXX
+OXOXOOXX
+OOOOXXOX
+OOOXXXOO
+
+78
+
+Final state with score: 2
+XOOOOOOO
+XOOOOOXO
+XOOOOOOO
+XXXOOXXO
+XOXXOOXO
+XOXXXOXO
+OXXXXXXO
+XXXXXXXO
+
+79
+
+Final state with score: -10
+OOOXXXXO
+XXOOOOOO
+XXXXXOOO
+XXXXOOXO
+XXXOXOOO
+XXOOOOOO
+XXXXXOXX
+XXXXXXXX
+
+80
+
+Final state with score: -2
+XXOOOOOO
+XXXOOOOO
+XOXOOOOO
+XOXXOOXO
+XXOXXOOO
+XXOXXXOO
+XXXXOOXO
+XXXXXXXX
+
+81
+
+Final state with score: -8
+OXXXXXXX
+OOXXXXOO
+OXOXXXOO
+OXXOXOXO
+OXOXOOOO
+XXXXOXOO
+XXOXXOOO
+XXXXXXOO
+
+82
+
+Final state with score: 10
+XXXXXXXO
+XXOOOOOO
+XXXOXXXO
+OXOXXOOO
+OXXOXOXO
+OXOXOXOO
+OOXOOOXO
+OOOOOOOO
+
+83
+
+Final state with score: -10
+XXXXXXXO
+XXXXOOOO
+XXXXXOOO
+XXOOOOOO
+XOXOXXXO
+XOOXOOOO
+XOOOXXXO
+XXXXXXXX
+
+84
+
+Final state with score: 22
+XXXOOOOO
+XXXOXOOO
+XOXXOXOO
+OXXOXOOO
+OOOOXOOO
+OOXXXXOO
+OOOOXOOO
+OOOOOOOX
+
+85
+
+Final state with score: 34
+OOOOOOOO
+OOXXXOOO
+OOOXOXOO
+OOXOOOXO
+OOXXOXXO
+OOOOOOXO
+OOOXXXOO
+OOOOOOOO
+
+86
+
+Final state with score: -14
+XXXXXXXX
+XXOOXXXX
+XXOXOXXX
+XXOOXXXX
+OOOXOXXX
+OOOOOOXX
+OXOOOXOX
+XXXXOOOO
+
+87
+
+Final state with score: -18
+OXXXXXXX
+OOXXXXXX
+OOOXXXXX
+OXOOXXXX
+OXXOOXXX
+OXXXXOXX
+OXXXXXOX
+OOXOOOOO
+
+88
+
+Final state with score: -12
+OOOOXXXX
+OOOOOOXX
+OOOXXXOX
+OXOXXOXX
+OOXXXXXX
+OXXOXOXX
+OXOXOXXO
+XXXXXXXX
+
+89
+
+Final state with score: 6
+OOOOOOOO
+OOOOOOOO
+OOXOOOXO
+OOOOOXXO
+XXOXXXXO
+XXXXXOXO
+XXXXOXXO
+XXXXXXXO
+
+90
+
+Final state with score: 32
+OOOOOOOO
+OOXXXOOO
+OOOXXXOO
+OOOOXXOO
+OOOXOXXO
+OOOOXOXX
+OOOOOXOX
+OOOOOOOO
+
+91
+
+Final state with score: -24
+OXXXXXXX
+OOXOXOXX
+OOOOOOOX
+OXXXXOOX
+OXXXXXOX
+OXXXXXXX
+OXXXXXXX
+OXXXXXXX
+
+92
+
+Final state with score: 22
+OOOOOOOX
+OOOOOOXX
+OXXOOXOX
+OOOOOOOX
+OOOOOXOX
+OOOOXOOX
+OOOOOOOX
+XXXXXXXX
+
+93
+
+Final state with score: 6
+OOOOOOOO
+OOOOXXXO
+OOOXXXXX
+OXXOOXXX
+OXXXOXXX
+OXOOOOOX
+OOOOOOOX
+OXXXXXXX
+
+94
+
+Final state with score: 0
+OOOOOOXO
+OOOXXXXO
+OOXXXOXX
+OOXOOOXX
+XOOOOXXX
+XOXOXOXX
+XOOXOOXX
+OOXXXXXX
+
+95
+
+Final state with score: -8
+XXXOXXXX
+XXOOOOXX
+OOOOXOOX
+XOOOXXOX
+XOOXXOXX
+XOXOXOOX
+XOXXOOOO
+XXXXXXXO
+
+96
+
+Final state with score: 32
+OOOOOXXX
+OOXXXXOO
+OOOOOOOO
+OOXXOOOO
+OOXOOXOO
+OXOOOXOO
+OOXXXOOO
+OOOOOOOO
+
+97
+
+Final state with score: -16
+........
+...X....
+..XX....
+.XXXXXX.
+..XXXX..
+...XX...
+..X.....
+........
+
+98
+
+Final state with score: -4
+XXXOOOOO
+XXXOOOOX
+XOXXOOOX
+XOXOXXOX
+XOXOOXXX
+XXOXOOXX
+XXXXXXXX
+OOOOOOOO
+
+99
+
+Final state with score: 12
+OOOOOXXX
+OOOOOOXO
+OXOXOXOO
+OXXOXOXO
+OXOOOXXO
+OXOOXXXO
+OXXXXOXO
+OXXXOOOO
+
+won: 58 lost: 39 tie:  3 time: 1224446 ms
+

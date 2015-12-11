@@ -1,0 +1,1594 @@
+A* Output
+
+Manhattan Distance Heuristic:
+
+Puzzles/SBP-level0.txt
+5,4,
+1,-1,-1,1,1,
+1,0,3,4,1,
+1,0,2,2,1,
+1,1,1,1,1,
+
+Nodes explored: 12
+Start State
+(2, left)
+(4, down)
+(3, right)
+(2, up)
+(2, up)
+(2, up)
+5,4,
+1,2,2,1,1,
+1,0,0,3,1,
+1,0,0,4,1,
+1,1,1,1,1,
+F:5 G:5 H:0
+Time: 0.005899 seconds
+Solution length: 6
+----------------------------------------------------------------------------------
+
+Puzzles/SBP-level1.txt
+5,5,
+1,1,1,1,1,
+1,3,2,2,1,
+1,0,4,5,1,
+-1,0,6,7,1,
+1,1,1,1,1,
+
+Nodes explored: 87
+Start State
+(4, left)
+(4, down)
+(4, left)
+(4, left)
+(2, down)
+(3, right)
+(4, up)
+(2, left)
+(7, up)
+(5, up)
+(7, right)
+(6, right)
+(7, up)
+(7, right)
+(2, down)
+(2, left)
+(2, left)
+5,5,
+1,1,1,1,1,
+1,3,4,5,1,
+1,0,0,6,1,
+2,2,0,7,1,
+1,1,1,1,1,
+F:16 G:16 H:0
+Time: 0.024849 seconds
+Solution length: 17
+----------------------------------------------------------------------------------
+
+SBP-level2.txt
+6,5,
+1,1,1,1,1,1,
+1,0,3,2,2,1,
+1,0,3,4,5,1,
+-1,6,6,7,8,1,
+1,1,1,1,1,1,
+
+Nodes explored: 710
+Start State
+(3, left)
+(2, left)
+(4, left)
+(5, up)
+(7, up)
+(7, right)
+(8, up)
+(8, right)
+(5, down)
+(5, left)
+(7, left)
+(5, down)
+(2, down)
+(4, left)
+(5, up)
+(2, right)
+(3, right)
+(6, up)
+(6, up)
+(7, left)
+(7, up)
+(8, left)
+(8, left)
+(2, down)
+(5, down)
+(7, right)
+(4, right)
+(3, right)
+(6, up)
+(8, up)
+(2, left)
+(2, left)
+(2, left)
+(2, left)
+6,5,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,7,5,8,1,
+2,2,0,0,0,1,
+1,1,1,1,1,1,
+F:33 G:33 H:0
+Time: 0.188483 seconds
+Solution length: 34
+----------------------------------------------------------------------------------
+
+SBP-level3.txt
+6,6,
+1,1,1,1,1,1,
+1,3,4,2,2,1,
+1,5,4,2,2,1,
+-1,0,6,7,7,1,
+-1,8,0,9,10,1,
+1,1,1,1,1,1,
+
+Nodes explored: 2291
+Start State
+(6, down)
+(4, down)
+(3, right)
+(4, up)
+(5, left)
+(4, down)
+(6, left)
+(10, up)
+(10, right)
+(9, right)
+(8, right)
+(4, down)
+(4, left)
+(2, left)
+(7, up)
+(5, up)
+(10, up)
+(8, up)
+(8, right)
+(10, right)
+(9, right)
+(7, right)
+(5, down)
+(3, down)
+(6, down)
+(4, down)
+(2, left)
+(3, left)
+(4, up)
+(7, up)
+(9, up)
+(8, right)
+(7, right)
+(6, right)
+(6, down)
+(2, down)
+(3, left)
+(3, left)
+(4, left)
+(4, left)
+(5, up)
+(6, up)
+(7, up)
+(9, right)
+(8, right)
+(10, up)
+(10, right)
+(9, right)
+(2, down)
+(2, left)
+(2, left)
+6,6,
+1,1,1,1,1,1,
+1,3,4,5,5,1,
+1,0,0,6,7,1,
+2,2,0,6,8,1,
+2,2,0,9,10,1,
+1,1,1,1,1,1,
+F:50 G:50 H:0
+Time: 0.808431 seconds
+Solution length: 51
+----------------------------------------------------------------------------------
+
+SBP-bricks-level1.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,5,2,2,6,1,
+1,7,8,9,10,1,
+1,11,12,13,14,1,
+1,15,0,0,16,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 998
+Start State
+(12, down)
+(8, down)
+(12, down)
+(8, down)
+(2, down)
+(3, right)
+(4, left)
+(5, up)
+(6, up)
+(7, up)
+(8, up)
+(9, up)
+(10, left)
+(12, up)
+(12, right)
+(2, down)
+(7, right)
+(8, left)
+(9, up)
+(10, up)
+(11, up)
+(12, up)
+(13, up)
+(14, left)
+(16, up)
+(16, right)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,8,9,10,1,
+1,11,0,0,12,1,
+1,13,0,0,14,1,
+1,15,2,2,16,1,
+1,1,2,2,1,1,
+F:28 G:28 H:0
+Time: 0.538272 seconds
+Solution length: 29
+----------------------------------------------------------------------------------
+
+SBP-bricks-level2.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,7,8,1,
+1,9,10,11,12,1,
+1,13,0,0,14,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 17161
+Start State
+(10, down)
+(6, down)
+(5, right)
+(3, down)
+(10, down)
+(9, right)
+(8, right)
+(4, down)
+(2, left)
+(6, up)
+(4, up)
+(6, right)
+(6, up)
+(8, up)
+(7, right)
+(6, right)
+(11, up)
+(12, left)
+(6, down)
+(2, down)
+(3, left)
+(3, left)
+(5, up)
+(4, left)
+(6, up)
+(6, up)
+(2, right)
+(8, up)
+(7, up)
+(12, up)
+(9, up)
+(10, left)
+(11, left)
+(11, down)
+(2, down)
+(7, right)
+(7, right)
+(8, up)
+(7, right)
+(10, up)
+(9, up)
+(12, left)
+(12, up)
+(13, left)
+(13, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,8,9,6,1,
+1,7,0,0,10,1,
+1,11,0,0,12,1,
+1,13,2,2,14,1,
+1,1,2,2,1,1,
+F:47 G:47 H:0
+Time: 8.23229 seconds
+Solution length: 48
+----------------------------------------------------------------------------------
+
+SBP-bricks-level3.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,7,8,1,
+1,5,9,10,11,1,
+1,12,0,0,13,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 27119
+Start State
+(9, down)
+(6, down)
+(6, left)
+(7, left)
+(4, down)
+(9, down)
+(9, left)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(6, left)
+(6, up)
+(8, up)
+(9, left)
+(12, up)
+(13, left)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(10, up)
+(8, up)
+(10, right)
+(9, right)
+(10, down)
+(9, right)
+(2, down)
+(4, down)
+(6, right)
+(3, right)
+(8, up)
+(6, up)
+(10, up)
+(9, up)
+(11, left)
+(11, up)
+(12, left)
+(12, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,4,7,8,1,
+1,9,0,0,8,1,
+1,10,0,0,11,1,
+1,12,2,2,13,1,
+1,1,2,2,1,1,
+F:46 G:46 H:0
+Time: 12.0803 seconds
+Solution length: 47
+----------------------------------------------------------------------------------
+
+SBP-bricks-level4.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,6,7,1,
+1,8,9,10,11,1,
+1,12,0,0,13,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 54557
+Start State
+(9, down)
+(9, down)
+(6, down)
+(5, right)
+(3, down)
+(6, left)
+(9, up)
+(9, right)
+(8, right)
+(4, down)
+(2, left)
+(6, up)
+(4, up)
+(6, right)
+(6, up)
+(8, up)
+(7, right)
+(6, right)
+(10, up)
+(11, left)
+(6, down)
+(2, down)
+(3, left)
+(3, left)
+(5, up)
+(4, left)
+(5, left)
+(7, up)
+(6, up)
+(7, right)
+(7, up)
+(10, up)
+(12, up)
+(11, right)
+(10, right)
+(9, right)
+(9, down)
+(2, down)
+(3, down)
+(3, left)
+(4, left)
+(5, left)
+(7, up)
+(8, up)
+(9, up)
+(13, left)
+(10, down)
+(9, right)
+(2, right)
+(10, up)
+(10, up)
+(11, left)
+(11, up)
+(12, left)
+(12, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,4,8,8,1,
+1,9,0,0,10,1,
+1,11,0,0,10,1,
+1,12,2,2,13,1,
+1,1,2,2,1,1,
+F:57 G:57 H:0
+Time: 24.316 seconds
+Solution length: 58
+----------------------------------------------------------------------------------
+
+SBP-bricks-level5.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,7,8,1,
+1,5,9,10,8,1,
+1,11,0,0,12,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 22393
+Start State
+(9, down)
+(6, down)
+(6, left)
+(9, down)
+(7, left)
+(4, down)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(8, up)
+(6, up)
+(10, up)
+(9, up)
+(11, left)
+(11, up)
+(12, left)
+(9, down)
+(12, left)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(10, up)
+(8, up)
+(10, right)
+(9, right)
+(9, down)
+(2, down)
+(4, down)
+(6, right)
+(3, right)
+(8, up)
+(6, up)
+(10, up)
+(9, up)
+(11, left)
+(11, up)
+(12, left)
+(12, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,4,7,8,1,
+1,9,0,0,8,1,
+1,10,0,0,11,1,
+1,12,2,2,11,1,
+1,1,2,2,1,1,
+F:47 G:47 H:0
+Time: 9.21094 seconds
+Solution length: 48
+----------------------------------------------------------------------------------
+
+SBP-bricks-level6.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,6,7,1,
+1,5,8,9,10,1,
+1,11,0,0,12,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 52403
+Start State
+(8, down)
+(8, down)
+(6, down)
+(6, left)
+(6, left)
+(8, up)
+(7, left)
+(12, up)
+(9, up)
+(9, right)
+(11, up)
+(12, left)
+(10, down)
+(7, down)
+(7, left)
+(4, down)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(6, left)
+(6, up)
+(8, up)
+(11, up)
+(12, left)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(10, up)
+(8, up)
+(10, right)
+(12, right)
+(9, down)
+(2, down)
+(4, down)
+(6, right)
+(3, right)
+(8, up)
+(6, up)
+(2, left)
+(9, left)
+(9, up)
+(12, up)
+(12, right)
+(11, right)
+(12, right)
+(11, right)
+(2, down)
+(9, left)
+(9, left)
+(4, down)
+(4, left)
+(5, left)
+(8, up)
+(10, up)
+(11, up)
+(11, right)
+(2, right)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,7,8,6,1,
+1,9,7,10,10,1,
+1,0,0,0,11,1,
+1,0,2,2,12,1,
+1,1,2,2,1,1,
+F:65 G:65 H:0
+Time: 21.4699 seconds
+Solution length: 66
+---------------------------------------------------------------------------------
+
+SBP-bricks-level7.txt
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,6,7,1,
+1,5,8,9,7,1,
+1,10,0,0,11,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 23915
+Start State
+(10, right)
+(5, down)
+(5, left)
+(9, up)
+(11, left)
+(7, down)
+(6, right)
+(5, right)
+(7, up)
+(10, left)
+(11, left)
+(9, left)
+(7, down)
+(6, right)
+(7, up)
+(9, down)
+(10, up)
+(10, right)
+(5, down)
+(5, left)
+(6, left)
+(4, down)
+(4, down)
+(2, right)
+(3, right)
+(4, up)
+(4, up)
+(7, up)
+(5, up)
+(8, left)
+(10, left)
+(9, left)
+(11, left)
+(7, down)
+(6, right)
+(8, up)
+(10, right)
+(11, up)
+(11, right)
+(6, down)
+(4, down)
+(3, right)
+(4, up)
+(7, up)
+(8, left)
+(5, down)
+(6, down)
+(5, right)
+(5, up)
+(6, left)
+(6, left)
+(10, up)
+(11, right)
+(10, down)
+(7, left)
+(11, up)
+(11, right)
+(7, down)
+(6, right)
+(3, down)
+(3, left)
+(5, up)
+(6, right)
+(8, up)
+(6, up)
+(9, left)
+(10, left)
+(10, down)
+(7, down)
+(2, down)
+(4, right)
+(3, right)
+(4, right)
+(3, right)
+(5, up)
+(6, up)
+(7, up)
+(8, up)
+(10, left)
+(10, left)
+(11, left)
+(11, left)
+(9, down)
+(2, down)
+(5, down)
+(6, right)
+(4, right)
+(8, up)
+(6, up)
+(2, left)
+(7, down)
+(6, down)
+(8, down)
+(6, down)
+(5, right)
+(4, right)
+(3, right)
+(6, up)
+(6, up)
+(2, left)
+(7, left)
+(8, up)
+(11, up)
+(11, right)
+(10, right)
+(11, right)
+(10, right)
+(2, down)
+(7, left)
+(7, left)
+(8, left)
+(8, left)
+(9, up)
+(10, up)
+(10, right)
+(2, right)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,4,5,6,1,
+1,7,8,9,9,1,
+1,0,0,0,10,1,
+1,0,2,2,11,1,
+1,1,2,2,1,1,
+F:117 G:117 H:0
+Time: 8.6902 seconds
+Solution length: 118
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Blockers Heuristic
+
+SBP-level0.txt -h
+1
+5,4,
+1,-1,-1,1,1,
+1,0,3,4,1,
+1,0,2,2,1,
+1,1,1,1,1,
+
+Nodes explored: 12
+Start State
+(2, left)
+(4, down)
+(3, right)
+(2, up)
+(2, up)
+(2, up)
+5,4,
+1,2,2,1,1,
+1,0,0,3,1,
+1,0,0,4,1,
+1,1,1,1,1,
+F:5 G:5 H:0
+Time: 0.006309 seconds
+Solution length: 6
+
+----------------------------------------------------------------------------------
+
+SBP-level1.txt -h
+1
+5,5,
+1,1,1,1,1,
+1,3,2,2,1,
+1,0,4,5,1,
+-1,0,6,7,1,
+1,1,1,1,1,
+
+Nodes explored: 87
+Start State
+(4, left)
+(4, down)
+(4, left)
+(4, left)
+(2, down)
+(3, right)
+(4, up)
+(2, left)
+(7, up)
+(5, up)
+(7, right)
+(6, right)
+(7, up)
+(7, right)
+(2, down)
+(2, left)
+(2, left)
+5,5,
+1,1,1,1,1,
+1,3,4,5,1,
+1,0,0,6,1,
+2,2,0,7,1,
+1,1,1,1,1,
+F:16 G:16 H:0
+Time: 0.031392 seconds
+Solution length: 17
+
+----------------------------------------------------------------------------------
+
+/SBP-level2.txt -h
+1
+6,5,
+1,1,1,1,1,1,
+1,0,3,2,2,1,
+1,0,3,4,5,1,
+-1,6,6,7,8,1,
+1,1,1,1,1,1,
+
+Nodes explored: 709
+Start State
+(3, left)
+(2, left)
+(5, up)
+(5, left)
+(7, up)
+(7, right)
+(8, up)
+(8, right)
+(5, down)
+(5, left)
+(7, left)
+(5, down)
+(2, down)
+(4, left)
+(5, up)
+(2, right)
+(3, right)
+(6, up)
+(6, up)
+(7, left)
+(7, up)
+(8, left)
+(8, left)
+(2, down)
+(5, down)
+(7, right)
+(4, right)
+(3, right)
+(6, up)
+(8, up)
+(2, left)
+(2, left)
+(2, left)
+(2, left)
+6,5,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,7,5,8,1,
+2,2,0,0,0,1,
+1,1,1,1,1,1,
+F:33 G:33 H:0
+Time: 0.191699 seconds
+Solution length: 34
+
+----------------------------------------------------------------------------------
+
+SBP-level3.txt -h
+1
+6,6,
+1,1,1,1,1,1,
+1,3,4,2,2,1,
+1,5,4,2,2,1,
+-1,0,6,7,7,1,
+-1,8,0,9,10,1,
+1,1,1,1,1,1,
+
+Nodes explored: 2291
+Start State
+(6, left)
+(7, left)
+(10, up)
+(10, right)
+(7, down)
+(4, down)
+(3, right)
+(4, up)
+(6, up)
+(7, left)
+(8, up)
+(9, left)
+(8, down)
+(2, down)
+(4, right)
+(3, right)
+(4, right)
+(3, right)
+(5, up)
+(6, up)
+(7, up)
+(8, up)
+(9, left)
+(9, left)
+(10, left)
+(10, left)
+(2, down)
+(5, down)
+(7, right)
+(4, right)
+(3, right)
+(6, up)
+(8, up)
+(9, up)
+(10, left)
+(2, left)
+(8, down)
+(6, down)
+(9, down)
+(7, down)
+(5, right)
+(4, right)
+(3, right)
+(6, right)
+(7, up)
+(6, up)
+(9, up)
+(8, up)
+(2, left)
+(2, left)
+(2, left)
+6,6,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,8,8,6,1,
+2,2,0,0,9,1,
+2,2,0,0,10,1,
+1,1,1,1,1,1,
+F:50 G:50 H:0
+Time: 0.845622 seconds
+Solution length: 51
+
+----------------------------------------------------------------------------------
+
+SBP-bricks-level1.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,5,2,2,6,1,
+1,7,8,9,10,1,
+1,11,12,13,14,1,
+1,15,0,0,16,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 695
+Start State
+(12, down)
+(8, down)
+(12, down)
+(8, down)
+(2, down)
+(3, right)
+(5, up)
+(7, up)
+(9, up)
+(5, left)
+(7, up)
+(9, up)
+(12, up)
+(11, left)
+(12, right)
+(2, down)
+(7, right)
+(9, up)
+(11, up)
+(13, up)
+(9, left)
+(11, up)
+(13, up)
+(16, up)
+(15, left)
+(16, right)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,8,9,10,1,
+1,11,0,0,12,1,
+1,13,0,0,14,1,
+1,15,2,2,16,1,
+1,1,2,2,1,1,
+F:28 G:28 H:0
+Time: 0.379915 seconds
+Solution length: 29
+
+----------------------------------------------------------------------------------
+
+/SBP-bricks-level2.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,7,8,1,
+1,9,10,11,12,1,
+1,13,0,0,14,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 11134
+Start State
+(10, down)
+(6, down)
+(6, left)
+(14, left)
+(7, left)
+(11, down)
+(4, down)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(6, left)
+(6, up)
+(9, up)
+(10, left)
+(8, left)
+(14, up)
+(14, right)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(11, up)
+(8, up)
+(14, up)
+(12, up)
+(12, right)
+(11, right)
+(11, down)
+(2, down)
+(7, left)
+(9, up)
+(11, up)
+(7, left)
+(8, left)
+(10, up)
+(14, right)
+(14, up)
+(14, right)
+(14, right)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,7,8,9,1,
+1,10,0,0,9,1,
+1,11,0,0,12,1,
+1,13,2,2,14,1,
+1,1,2,2,1,1,
+F:47 G:47 H:0
+Time: 5.59948 seconds
+Solution length: 48
+
+---------------------------------------------------------------------------------
+
+SBP-bricks-level3.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,7,8,1,
+1,5,9,10,11,1,
+1,12,0,0,13,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 20334
+Start State
+(9, down)
+(6, down)
+(6, left)
+(7, left)
+(9, down)
+(9, left)
+(4, down)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(6, left)
+(6, up)
+(8, up)
+(9, left)
+(12, up)
+(13, left)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(10, up)
+(8, up)
+(10, right)
+(9, right)
+(10, down)
+(9, right)
+(2, down)
+(4, down)
+(6, right)
+(3, right)
+(8, up)
+(10, up)
+(6, up)
+(9, up)
+(11, left)
+(11, up)
+(12, left)
+(12, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,4,7,8,1,
+1,9,0,0,8,1,
+1,10,0,0,11,1,
+1,12,2,2,13,1,
+1,1,2,2,1,1,
+F:46 G:46 H:0
+Time: 9.70996 seconds
+Solution length: 47
+
+
+----------------------------------------------------------------------------------
+
+SBP-bricks-level4.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,6,7,1,
+1,8,9,10,11,1,
+1,12,0,0,13,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 42328
+Start State
+(9, down)
+(9, down)
+(6, down)
+(5, right)
+(5, right)
+(7, up)
+(5, right)
+(3, down)
+(4, down)
+(2, left)
+(6, up)
+(4, up)
+(6, right)
+(6, up)
+(7, left)
+(9, up)
+(9, right)
+(6, right)
+(10, up)
+(11, left)
+(6, down)
+(2, down)
+(3, left)
+(3, left)
+(5, up)
+(4, left)
+(5, left)
+(7, up)
+(6, up)
+(7, right)
+(7, up)
+(10, up)
+(12, up)
+(11, right)
+(10, right)
+(9, right)
+(9, down)
+(2, down)
+(3, down)
+(3, left)
+(4, left)
+(5, left)
+(7, up)
+(8, up)
+(9, up)
+(13, left)
+(10, down)
+(9, right)
+(2, right)
+(10, up)
+(10, up)
+(11, left)
+(11, up)
+(12, left)
+(12, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,7,4,8,8,1,
+1,9,0,0,10,1,
+1,11,0,0,10,1,
+1,12,2,2,13,1,
+1,1,2,2,1,1,
+F:57 G:57 H:0
+Time: 19.9365 seconds
+Solution length: 58
+
+----------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------
+
+BP-bricks-level5.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,7,8,1,
+1,5,9,10,8,1,
+1,11,0,0,12,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 21102
+Start State
+(9, down)
+(6, down)
+(6, left)
+(9, down)
+(7, left)
+(4, down)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(8, up)
+(6, up)
+(10, up)
+(9, up)
+(11, left)
+(11, up)
+(12, left)
+(9, down)
+(12, left)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(10, up)
+(8, up)
+(10, right)
+(9, right)
+(9, down)
+(2, down)
+(4, down)
+(6, right)
+(3, right)
+(8, up)
+(10, up)
+(6, up)
+(9, up)
+(11, left)
+(11, up)
+(12, left)
+(12, left)
+(2, down)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,4,7,8,1,
+1,9,0,0,8,1,
+1,10,0,0,11,1,
+1,12,2,2,11,1,
+1,1,2,2,1,1,
+F:47 G:47 H:0
+Time: 9.31529 seconds
+Solution length: 48
+
+----------------------------------------------------------------------------------
+
+SBP-bricks-level6.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,6,7,1,
+1,5,8,9,10,1,
+1,11,0,0,12,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 45512
+Start State
+(8, down)
+(8, down)
+(6, down)
+(6, left)
+(6, left)
+(8, up)
+(7, left)
+(12, up)
+(9, up)
+(9, right)
+(11, up)
+(12, left)
+(10, down)
+(7, down)
+(7, left)
+(4, down)
+(4, down)
+(2, right)
+(5, up)
+(4, up)
+(6, left)
+(6, up)
+(8, up)
+(11, up)
+(12, left)
+(8, down)
+(2, down)
+(4, right)
+(4, right)
+(5, up)
+(4, right)
+(7, up)
+(6, up)
+(2, left)
+(10, up)
+(8, up)
+(10, right)
+(12, right)
+(9, down)
+(2, down)
+(4, down)
+(6, right)
+(3, right)
+(8, up)
+(6, up)
+(2, left)
+(9, left)
+(9, up)
+(12, up)
+(12, right)
+(11, right)
+(12, right)
+(11, right)
+(2, down)
+(9, left)
+(9, left)
+(4, down)
+(4, left)
+(5, left)
+(8, up)
+(10, up)
+(11, up)
+(11, right)
+(2, right)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,7,8,6,1,
+1,9,7,10,10,1,
+1,0,0,0,11,1,
+1,0,2,2,12,1,
+1,1,2,2,1,1,
+F:65 G:65 H:0
+Time: 20.0225 seconds
+Solution length: 66
+
+----------------------------------------------------------------------------------
+
+SBP-bricks-level7.txt -h
+1
+6,7,
+1,1,1,1,1,1,
+1,3,2,2,4,1,
+1,3,2,2,4,1,
+1,5,6,6,7,1,
+1,5,8,9,7,1,
+1,10,0,0,11,1,
+1,1,-1,-1,1,1,
+
+Nodes explored: 23675
+Start State
+(10, right)
+(5, down)
+(5, left)
+(9, up)
+(11, left)
+(7, down)
+(6, right)
+(5, right)
+(7, up)
+(10, left)
+(11, left)
+(9, left)
+(7, down)
+(6, right)
+(7, up)
+(9, down)
+(10, up)
+(10, right)
+(5, down)
+(5, left)
+(6, left)
+(4, down)
+(4, down)
+(2, right)
+(3, right)
+(4, up)
+(4, up)
+(7, up)
+(5, up)
+(8, left)
+(10, left)
+(9, left)
+(11, left)
+(7, down)
+(6, right)
+(8, up)
+(10, right)
+(11, up)
+(11, right)
+(6, down)
+(4, down)
+(3, right)
+(4, up)
+(7, up)
+(8, left)
+(5, down)
+(6, down)
+(5, right)
+(5, up)
+(6, left)
+(6, left)
+(10, up)
+(11, right)
+(10, down)
+(7, left)
+(11, up)
+(11, right)
+(7, down)
+(6, right)
+(6, right)
+(8, up)
+(3, down)
+(3, left)
+(5, up)
+(6, up)
+(9, left)
+(10, left)
+(10, down)
+(7, down)
+(2, down)
+(4, right)
+(3, right)
+(4, right)
+(3, right)
+(5, up)
+(6, up)
+(7, up)
+(8, up)
+(10, left)
+(10, left)
+(11, left)
+(11, left)
+(9, down)
+(2, down)
+(5, down)
+(6, right)
+(4, right)
+(8, up)
+(6, up)
+(2, left)
+(7, down)
+(6, down)
+(8, down)
+(6, down)
+(5, right)
+(4, right)
+(3, right)
+(6, up)
+(6, up)
+(2, left)
+(7, left)
+(8, up)
+(11, up)
+(11, right)
+(10, right)
+(11, right)
+(10, right)
+(2, down)
+(7, left)
+(7, left)
+(8, left)
+(8, left)
+(9, up)
+(10, up)
+(10, right)
+(2, right)
+(2, down)
+(2, down)
+6,7,
+1,1,1,1,1,1,
+1,3,4,5,6,1,
+1,3,4,5,6,1,
+1,7,8,9,9,1,
+1,0,0,0,10,1,
+1,0,2,2,11,1,
+1,1,2,2,1,1,
+F:117 G:117 H:0
+Time: 9.2317 seconds
+Solution length: 118
+

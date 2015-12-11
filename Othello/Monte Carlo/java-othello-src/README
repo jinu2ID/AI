@@ -1,0 +1,68 @@
+Author: Jinu Jacob
+jj559@drexel.edu
+Created: 11/15
+CS 380 HW5
+Monte Carlo Tree Search  agent for Othello
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+SUMMARY
+---------------------------------------------------------------------------------------------------------------------
+This program implements the Monte Carlo Tree Search in an Othello player agent.
+It also improves the Iago Minimax agent by implementing a new evaluation
+function. 
+This program was written in IntelliJIDEA 14.1.5 on a Windows 10 machine. It
+was tested on Drexel's tux servers.
+---------------------------------------------------------------------------------------------------------------------
+
+HOW TO RUN
+
+To run please run the "make" command from the java-othello-src directory
+where the make file is located.
+
+The Desdemona(MCTS) player's iterations of Monte Carlo can be set when it is
+instantiated in Test.java. Currently it is set as player 2.
+The evaluation function is used in the agent called Iago2. It is instatiated
+and externally behaves the same way as Iago. Internally it uses a different
+function to evaluate game states.
+
+Test results can be found in cs380/othello/output.txt
+---------------------------------------------------------------------------------------------------------------------
+
+IMPLEMENTATION NOTES
+---------------------------------------------------------------------------------------------------------------------
+
+MCTS
+The Desdemona class implements MCTS in the function MonteCarloTreeSearch. An
+instance of Desdemona is created with a number that represents the
+iterations that MCTS will perform.
+
+The actual algorithm closely mirrors the provided pseudocode. As a root
+nodes children are discovered a random game is played out for each. Once all
+the children have been added to the tree, the epsilon-greedy strategy is
+employed to pick a node(more below). As random games for nodes are played
+out their average scores are tracked. When the final iteration is complete,
+the parent move of the Node with the best average score is returned.
+
+Epsilon-greedy Strategy
+Given that 90% of the times "nodetmp = bestChild(node)", and 10% of the times 
+"nodetmp = [a child of node at random]", epsilon is equal to .1 
+The java.util Random.nextInt(max) returns the next pseudorandom, uniformly
+distributed int value between 0(inclusive) and max(exclusive). By setting max to
+10, nextInt() will return 0 only 10% of the time. A random number generated
+this way is passed to treePolicy() which decides between explore and
+exploit.
+
+Evaluation Function
+Corners - A corner position in Othello is secure and cannot be flipped.
+Mobility - This measures the possible moves a player can make from a given
+state. Both players try to maximize their possible moves while minimizing
+their opponents
+
+the eval() function in OthelloState returns a value which is a combination
+of corners, mobility, and the actual score of the state.
+
+Desdemona did not do too well against Iago or Iago2. The alpha-beta pruning
+and better evaluation function of Iago and Iago2 may have been too
+overwhelming.
