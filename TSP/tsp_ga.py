@@ -4,10 +4,6 @@
 # CS 385 HW4
 # Genetic Algorithm for TSP using DEAP
 
-import matplotlib.pyplot as plt
-import matplotlib.colors as colors
-import matplotlib.cm as cmx
-
 import random, operator
 import time
 import itertools
@@ -47,7 +43,9 @@ def shortest(tours):
     return min(tours, key=total_distance)
 
 alltours = itertools.permutations # The permutation function is already defined in the itertools module
-cities = {0,1,2}
+numbersList = range(30)
+cities = set(numbersList)
+print cities
 distances = readDistances("30cities.txt")
 
 def total_distance(tour):
@@ -72,5 +70,14 @@ def exact_non_redundant_TSP(cities):
     "Generate all possible tours of the cities and choose the shortest one."
     return shortest(all_non_redundant_tours(cities))
 
-print all_non_redundant_tours(cities)
+
+toolbox = base.Toolbox()
+
+creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
+creator.create("Individual", list, fitness=creator.FitnessMin)
+
+toolbox.register("indices", numpy.random.permutation, len(cities))
+toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.indices)
+toolbox.register("population", tools.initRepeat, list, toolbox.individual)
+
 
