@@ -31,6 +31,8 @@ def readCosts(fileName):
 			k += 1
 	return costs	
 			 
+# Returns all permutations
+alltours = itertools.permutations
 
 numbersList = range(30)
 cities = set(numbersList)
@@ -79,16 +81,16 @@ result,log =  algorithms.eaSimple(pop, toolbox, cxpb=0.8, mutpb=0.2, ngen=400, v
 
 best_individual = tools.selBest(result, k=1)[0]
 print ('\nOrdered Crossover, Shuffled Indices Mutation, Tournament Selection')
-print ('Fitness of the best individual: ', evaluation(best_individual)[0])
+print('Fitness of the best individual: ', evaluation(best_individual)[0])
 print (best_individual)
 print 
 
 
-toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.15)
+toolbox.register("mate", tools.cxUniform, indpb=0.5)
 toolbox.register("select", tools.selBest)
 
-print ('Ordered Crossover, Shuffled Indices Mutation, Best Selection')
+print ('Uniform Crossover, Shuffled Indices Mutation, Best Selection')
 result,log =  algorithms.eaSimple(pop, toolbox, cxpb=0.8, mutpb=0.2, ngen=400, verbose=False)
 best_individual = tools.selBest(result, k=1)[0]
-print ('Fitness of the best individual: ', evaluation(best_individual)[0])
+print('Fitness of the best individual: ', evaluation(best_individual)[0])
 print best_individual
