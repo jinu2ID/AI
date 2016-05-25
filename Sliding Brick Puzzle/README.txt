@@ -58,10 +58,8 @@ distance and is still admissible. It counts the number of pieces that are in
 between the master piece and the goal and adds it to the Manhattan distance.
 This will never overestimate the actual cost to the goal because a cost always 
 exists for each piece that must be moved out of the way. It is better than 
-Manhattan distance because it is closer to the actual cost.
-
-This heuristic slightly reduces the amount of nodes explored and the time
-taken. Unfortunately it does not provide any better solutions.
+Manhattan distance because it is closer to the actual cost. This heuristic 
+slightly reduces the amount of nodes explored and the time taken. 
 
 ---------------------------------------------------------------------------------
 
