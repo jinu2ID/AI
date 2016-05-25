@@ -122,7 +122,7 @@ string Node::hashNode(){
 // [#1] To create a unique hash this function takes the values in a matrix
 // and turns them into a one line string. So for the following matrix:
 //
-//			1 2 3 
+//	 1 2 3 
 //       4 5 6     ----[ nodeHash()]------>  "123456789012" 
 //       7 8 9
 //       0 1 2
